@@ -40,7 +40,7 @@ while Number_of_courses != i:
 	data['courses'].append(course)
 	units=int(input("Enter the units of the course:"))
 	data['units'].append(units)
-	scores=int(input("Enter your score:"))
+	scores=int(input("Enter your score(/100):"))
 	data['scores'].append(scores)
 	i+=1
 for number in data['scores']:
